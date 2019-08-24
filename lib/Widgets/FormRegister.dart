@@ -83,7 +83,13 @@ class FormRegister extends StatelessWidget {
                       fontSize: ScreenUtil.getInstance().setSp(28)),
                 ),
               ],
-            )
+            ),
+            SizedBox(height: 50,),
+InkWell(child: ButtonBar(
+  children: <Widget>[
+    
+  ],
+),)
           ],
         ),
       ),
