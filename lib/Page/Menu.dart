@@ -1,7 +1,6 @@
 import 'package:bubble_bottom_bar/bubble_bottom_bar.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
 final Color backgroundColor = Color.fromRGBO(51, 51, 51, 1);
@@ -172,7 +171,9 @@ class _SidebarState extends State<Sidebar> with SingleTickerProviderStateMixin {
                           color: Colors.white,
                           fontSize: 20,
                           fontFamily: 'Nexa-Light'),
+                          
                     ),
+                    
                   ],
                 ),
                 SizedBox(height: 10),
@@ -346,7 +347,7 @@ class _SidebarState extends State<Sidebar> with SingleTickerProviderStateMixin {
                       itemBuilder: (centext, index) {
                         return ListTile(
                           title: Text("Mac"),
-                          subtitle: Text("aplle"),
+                          subtitle: Text("apple"),
                           trailing: Text("-2900"),
                         );
                       },

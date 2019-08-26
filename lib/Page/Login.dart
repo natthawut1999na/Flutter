@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_login_page_ui/Page/Navbar.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import '../Widgets/FormCard.dart';
 import '../Widgets/SocialIcons.dart';
 import '../CustomIcons.dart';
 import '../Page/Register.dart';
-import 'PageMenu.dart';
 class Login extends StatefulWidget {
   @override
   _MyAppState createState() => new _MyAppState();
@@ -121,7 +121,7 @@ class _MyAppState extends State<Login> {
                           decoration: BoxDecoration(
                               gradient: LinearGradient(colors: [
                                 Color(0xFF17ead9),
-                                Color(0xFF6078ea)
+                                Color(0xFF6078ea),
                               ]),
                               borderRadius: BorderRadius.circular(6.0),
                               boxShadow: [
@@ -135,7 +135,7 @@ class _MyAppState extends State<Login> {
                             child: InkWell(
                               
                               onTap:(){
-                            Navigator.push(context, MaterialPageRoute(builder: (context) => PageMenu()));
+                            Navigator.push(context, MaterialPageRoute(builder: (context) => NavbarPage()));
                           },
                               child: Center(
                                 

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-class MapPage extends StatelessWidget {
+class MenuMainPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -16,7 +16,7 @@ class MapPage extends StatelessWidget {
           onPressed: () {},
         ),
         title: Text(
-          'Map',
+          'Home',
           style: TextStyle(
             color: Color(0xFFFE1483),
             fontFamily: "Nexa-bold",
